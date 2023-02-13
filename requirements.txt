@@ -1,0 +1,5 @@
+fastapi==0.88.0
+openai==0.25.0
+pydantic==1.8.2
+starlette==0.22.0
+uvicorn==0.17.1

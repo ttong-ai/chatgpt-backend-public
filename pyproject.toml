@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "chatgpt-agent"
+version = "0.2.0"
+description = "Here is an implementation of ChatGPT-like agent using GPT3"
+authors = ["T. Tong <ttong@pro-ai.org>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8.0,<3.9"
+numpy = "^1.22.2"
+replit = "^3.2.4"
+Flask = "^2.2.0"
+urllib3 = "^1.26.12"
+fastapi = "^0.88.0"
+uvicorn = "^0.20.0"
+openai = "^0.25.0"
+
+[tool.poetry.dev-dependencies]
+debugpy = "^1.6.2"
+replit-python-lsp-server = {extras = ["yapf", "rope", "pyflakes"], version = "^1.5.9"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,40 @@
+__pycache__/
+*.py[cod]
+$py.class
+
+# venv
+venv/
+.venv
+env/
+.env
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist/
+build/
+develop-eggs/
+.installed.cfg
+*.egg-link
+*.eggs
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+
+# Translations
+*.mo
+*.pot
+
+# VS Code stuff:
+.vscode/
+
+# others
+.hypothesis/
+.breakpoint
