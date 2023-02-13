@@ -15,5 +15,7 @@ In `agent.models_openai.py`, you will need to supply your own OPEN_API_KEY
 openai.api_key = os.getenv("OPENAI_API_KEY", "<YOUR_OPEN_API_KEY>")
 ```
 
+You may deploy your backend with [Repl](https://replit.com) or other hosting services.
+
 ![ChatWithFuture](screenshot.png)
 
